@@ -1,5 +1,6 @@
 import './common/common.css'
 
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import Vue from 'vue'
 
 import mainCcomponent from './components/main/main.vue'

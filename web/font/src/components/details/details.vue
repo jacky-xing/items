@@ -9,7 +9,7 @@
         <ul class="ulPS">
             <li class="fl iconfont icon-zhengpinbaozhang1">100%品牌正品</li>
             <li class="fl iconfont icon-tedianquanchangbaoyou">全场399包邮</li>
-            <li class="fl iconfont icon-tuipiao">7天无忧退货</li>
+            <li class="fl iconfont icon-tuipiao">7天无忧</li>
         </ul>
         <div class="tocar">
             <router-link to="/cart"><div class="buy" @click="gotocar">立即购买</div></router-link>

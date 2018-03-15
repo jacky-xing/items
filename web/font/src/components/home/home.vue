@@ -5,10 +5,10 @@
         </div>
         <div class="nav">
             <ul>
-                <li class="li1 iconfont icon-shouye"><router-link to="/">首页</router-link></li>
-                <li class="icon-shangdian iconfont"><router-link to="/store">商店</router-link></li>
-                <li class="icon-gouwucheman iconfont"><router-link to="/cart">购物车</router-link></li>
-                <li class="icon-wodexuanzhong iconfont"><router-link to="/my">我的</router-link></li>
+                <router-link to="/"><li class="li1 iconfont icon-shouye">首页</li></router-link>
+                <router-link to="/store"><li class="icon-shangdian iconfont">商店</li></router-link>
+               <router-link to="/cart"> <li class="icon-gouwucheman iconfont">购物车</li></router-link>
+                <router-link to="/my"><li class="icon-wodexuanzhong iconfont">我的</li></router-link>
             </ul>
         </div>
     </div>

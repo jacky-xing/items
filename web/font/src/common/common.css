@@ -3,7 +3,9 @@
 
 body,h1,h2,h3,h4,p,a,input,img,ul,li,ol,dl,dt,dd{
 	padding:0;
-	margin:0;}
+	margin:0;
+	color: darkgray;
+}
 ul,ol{
 	list-style:none;}
 img{
@@ -29,7 +31,11 @@ body,header{height:100%;}
 #box{height: 100%;}
 .fr{float:right;}
 .fl{float:left;}
-
+@media screen and (min-width: 992px) {
+	body {
+		font-size: 36px;
+	}
+}
 
 
 

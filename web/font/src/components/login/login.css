@@ -1,7 +1,103 @@
-.login{border:1px solid #333;width: 80%;position:absolute;top:20%;left:10%;height: 430px;box-shadow:0px 0px 509px 170px #999;padding:10px 40px;border-radius:8px;}
-.login h2{text-align:center;margin-bottom:20px;}
-.login .put{height: 50px;width: 330px;float:right;border:1px solid #222;font-size:24px;}
-.login .user,.pass{height: 70px;font-size:24px;}
-#tologin{width: 70px;height: 50px;float:right;font-size:22px;}
-.loginbtn{overflow:hidden;}
-.toreg{margin-top:40px;}
+body{
+	background: url('../../img/login.gif');
+	background-size: 100% 100%;
+}
+.login {
+	border: 1px solid #333;
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	padding: 10px 40px;
+	border-radius: 8px;
+	padding: 20px;
+}
+.login .login_h{
+	color: #fefefe;
+	margin-bottom: 40px;
+	height: 100px;
+	font-size: 50px;
+}
+.login .shangmian{
+	width: 90%;
+	height: 70%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);	
+}
+
+.login .touming {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0.2;
+	z-index: -1;
+	background: black;
+}
+
+.login h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.login .put {
+	height: 50px;
+	width: 330px;
+	float: right;
+	border: 1px solid #222;
+	font-size: 24px;
+}
+
+.login .user,
+.login .pass {
+	height: 70px;
+	font-size: 24px;
+	width: 90%;
+	margin:0 0 30px 20px;
+	
+}
+.login .user{
+	
+}
+.login label{
+	height: 46px;
+	width: 46px;
+}
+.login label>img{
+	height: 100%;
+	display: inline-block;
+}
+.login input#tologin {
+	display: block;
+	height: 70px;
+	float: right;
+	font-size: 32px;
+	width: 230px;
+	line-height: 0px;
+}
+
+.login .loginbtn {
+	width: 74%;
+	height: 70px;
+}
+
+.login .toreg {
+	margin-top: 40px;
+	color: #FEFEFE;
+	font-size: 35px;
+	text-align: center;
+	
+}
+.login .toreg a{
+	color:#DF5000;
+	
+}
+.login #username,#password{
+	padding-left:10px;
+	height: 70px;
+	width: 85%;
+	color: black;
+	font-size: 30px;
+}

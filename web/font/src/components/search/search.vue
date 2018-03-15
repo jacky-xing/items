@@ -44,7 +44,6 @@
 	            http.get(this.src+this.title).then((res) => {
     	             if(res.data.status){
                         this.data =res.data.data;
-                        console.log(this.data)
                         this.show = false;
                     }else(window.alert(res.data.error))
 	            })

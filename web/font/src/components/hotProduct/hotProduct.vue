@@ -14,7 +14,7 @@
                         <ul>
                             <li v-for="(value,idx) in data">
                                 <div>
-                                    <img :src="src+value.img">
+                                    <img :src="srcimg+value.img">
                                 </div>
                                 <div>
                                     <div class="store_hot2_content">
@@ -47,15 +47,15 @@
         data:function(){
             return {
                 data:[],
-                imgsrc:'../../src/img/',
+                srcimg:'../../src/img/',
                 show: false,
-                src:'http://10.3.136.156:8080/frontassproducts?hot=',
+                imgsrc:'http://10.3.136.148:8080/frontassproducts?hot=',
                 hot:'hot'
             }
         },
         mounted(){
             this.show=true;
-            http.get(this.src+this.hot).then((res) => {
+            http.get(this.imgsrc+this.hot).then((res) => {
                 if(res.data.status){
                     this.data =res.data.data;
                     this.show = false;

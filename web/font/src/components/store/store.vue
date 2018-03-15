@@ -25,7 +25,7 @@
                         </ul>
                     </div>
 
-                    <div class="store_hot">
+                    <div class="store_hot" id="wangu">
                         <div class="store_hot1">
                             <h3>本周热销</h3>
                             <router-link to="/hot">查看更多</router-link>
@@ -42,7 +42,7 @@
                                         </div>
                                         <div class="store_hot2_price">
                                             <div id="Oprice">原价:￥{{value.Oprice}}</div>
-                                            <div>￥<span>{{value.price}}</span></div>
+                                            <div id="wangu2">￥<span>{{value.price}}</span></div>
                                             <input type="button" value="购买" @click="tocart">
                                         </div>
                                     </div>                              
@@ -59,7 +59,7 @@
                             <ul>
                                 <li v-for="(value,idx) in data" class="fl">
                                     <router-link to="/details"><img :src="src+value.img" @click="toDetails"></router-link>
-                                    <p>{{value.title}}</p>
+                                    <p class="til">{{value.title}}</p>
                                     <div>￥<span>{{value.price}}</span></div>
                                     <i class="Oprice">原价:￥{{value.Oprice}}</i> 
                                 </li>

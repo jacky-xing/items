@@ -1,16 +1,7 @@
 body{
 	height: 100%;
 }
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-ul,
-li,
-ol,
-dl,p{
+body,h1,h2,h3,h4,h5,ul,li,ol,dl,p{
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -19,18 +10,25 @@ dl,p{
 	display: flex;
 	flex-direction: column;
 	justify-content:space-around;
+	padding: 20px;
 }
-.car_header{
+.car .car_header{
 	height: 50px;
 	font-size: 35px;
 	text-align: center;
 	border-bottom: 1px solid #CCCCCC;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	margin-bottom:20px;
 }
-.car_body{
+.car .car_body{
 	display: flex;
 	flex-direction: row;
+	border:10px;
+}
+#car_b{
+	border-bottom: 1px solid darkgray;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 .car_body .checked{
 	height: 25px;
