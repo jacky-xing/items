@@ -1,0 +1,91 @@
+body,h1,h2,h3,h4,h5,ul,li,ol,dl {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.search{
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+.search .search_header{
+	height: 80px;
+	line-height: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	vertical-align:middle;
+	padding-bottom:10px;
+}
+.search .search_header .icon-xiangzuo{
+	width: 10%;
+	height: 80px;
+	font-size: 50px;
+	vertical-align:middle;
+	text-align: end;
+}
+
+.search_header>div{
+	position: relative;
+	width: 50%;
+	vertical-align:middle;
+	
+}
+.search_header>div input {
+	height: 50px;
+	border-radius: 10px;
+	vertical-align:top;
+	margin-top: 10px;
+	width: 100%;
+	padding-left:50px ;
+	font-size: 24px;
+	vertical-align:top;
+	
+}
+.search_header .box-search{
+	position:relative;
+}
+.search_header span{
+	width: 20%;
+	font-size: 28px;
+	text-align: end;
+	padding-right: 40px;
+}
+
+
+
+.search_content ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.search_content ul li {
+	width: 48%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+.search_content img {
+	height: 60%;
+	width: 90%;
+	padding: 5%;
+}
+
+.search_content span {
+	color: gray;
+	text-align: center;
+	height: 10%;
+	font-size: 24px;
+}
+.search_content div {
+	margin-top:40px;
+	font-size: 40px;
+	text-align: center;
+}
+.fan{position:absolute;top:-4px;left:10px;font-size:34px;}
+.toback{width: 54px;height: 54px;font-size:24px;background:#fff;border:1px solid #ccc;}
+#rice{font-size:26px;color:#999;text-decoration:line-through;margin-top:0px;}

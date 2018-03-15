@@ -1,0 +1,104 @@
+.store_hot {
+	border: 1px solid #ccc;
+	display: flex;
+	flex-direction: column;
+}
+.hot_header h1{text-align:center;width: 100%;}
+.hot .hot_top{
+	padding:0px 20px;
+	height:800px;
+	/*border:1px solid;*/
+	overflow: hidden;
+}
+.hot .hot_top img{
+	height:100%;
+	width: 100%;
+}
+.hot_header{
+	display: flex;
+	flex-direction: row;
+}
+.hot_header>i{
+	height: 80px;
+	width: 40%;
+}
+.icon-xiangzuo:before{
+	font-size: 60px;
+	height: 80px;
+	width: 80px;
+	
+	
+}
+.hot_header span{
+	font-size: 40px;
+	
+}
+
+.store_hot .store_hot2 {}
+
+.store_hot .store_hot2 ul {
+	display: flex;
+	flex-direction: column;
+}
+
+.store_hot .store_hot2 ul li {
+	flex: 1;
+	height: 200px;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 10px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.store_hot .store_hot2 ul li>div:first-child {
+	width: 30%;
+}
+
+.store_hot .store_hot2 ul li>div:last-child {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 60%;
+}
+
+.store_hot .store_hot2 ul li>div .store_hot2_content {
+	height: 60%;
+	font-size: 30px;
+}
+
+.store_hot .store_hot2 ul li>div .store_hot2_content span {
+	font-size: 30px;
+}
+
+.store_hot2 img {
+	height: 90%;
+	width: 90%;
+	padding: 5%;
+}
+
+.store_hot2_price {
+	display: flex;
+	flex-direction: row;
+}
+
+.store_hot2_price div {
+	width: 70%;
+	/*border: 1px solid;*/
+}
+
+.store_hot2_price div {
+	color: red;
+	font-size: 35px;
+}
+
+.store_hot2_price input {
+	width: 30%;
+	height: 50%;
+	background: red;
+	font-size: 30px;
+	color: white;
+	border-radius: 30px;
+}
+
+.Back{width: 60px;height: 60px;margin-top:14px;font-size:24px;background:#fff;border:1px solid #ccc;margin-right:10px;margin-left:20px;}

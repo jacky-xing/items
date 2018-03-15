@@ -1,0 +1,21 @@
+.datagrid{
+	.conHeader{
+		height: 78px;
+		.top{
+			margin-top: 25px;
+		}
+		.conHeader_l{
+			width:238px;
+		}
+	}
+	.pageBox{
+		ul{
+			li.prev{
+				margin-right:10px;
+			}
+			li.next{
+				margin-left:10px;
+			}
+		}
+	}
+}

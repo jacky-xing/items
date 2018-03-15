@@ -1,0 +1,95 @@
+body{
+	height: 100%;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li,
+ol,
+dl,p{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.car{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-around;
+}
+.car_header{
+	height: 50px;
+	font-size: 35px;
+	text-align: center;
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom: 10px;
+	margin-bottom:20px;
+}
+.car_body{
+	display: flex;
+	flex-direction: row;
+}
+.car_body .checked{
+	height: 25px;
+	width: 25px;
+	background-color: black;
+}
+.car_body img{
+	height: 290px;
+	width: 230px;
+	border-radius:10px;
+}
+.car_body_r{
+	display: flex;
+	flex-direction: column;
+	padding-left:20px;
+}
+.car_body_r .car_body_r_t{
+	display: flex;
+	flex-direction: column;
+}
+.car_body_r_t2{
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+}
+.car_bottom{
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	font-size: 30px;
+	justify-content: space-between;
+	text-align: center;
+	line-height: 80px;
+}
+.car_bottom input{
+	height: 25px;
+	width: 25px;
+	background-color: black;
+}
+.car_bottom1 {
+	width: 20%;
+	line-height: 80px;
+}
+.car_bottom3{
+	width: 40%;
+	background: black;
+	color: white;
+}
+.car_body_r_t1{font-size:24px;color:#000;}
+.car_body_r_t2 .color{font-size:24px;}
+.car_body_r_t2 .size{font-size:24px;}
+.car_body_r_b input{height:40px;}
+.car_body_r_b .lian{width: 40px;font-size:24px;}
+.car_body_r_b .center{font-size:24px;border:1px solid #ccc;width: 100px;}
+.car_body_r_b{margin-top:40px;}
+.total{font-weight:bold;padding-left:30px;}
+.btn_car{width: 48px;height: 48px;font-size:24px;background:#fff;border:1px solid #ccc;float:left;}
+#del{float:right;text-align:right;}
+#del>i{background:#ddd;}
+.car_body_r{width: 420px;height: 290px;}
+
+

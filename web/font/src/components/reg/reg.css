@@ -1,0 +1,9 @@
+.reg{border:1px solid #333;width: 80%;position:absolute;top:20%;left:10%;height: 590px;box-shadow:0px 0px 509px 170px #999;padding:10px 40px;border-radius:8px;}
+.reg h2{text-align:center;margin-bottom:20px;}
+.reg .put{height: 50px;width: 330px;float:right;border:1px solid #222;font-size:24px;}
+.reg .regbox{height: 70px;font-size:24px;}
+#tologin{width: 70px;height: 50px;float:right;font-size:22px;}
+.loginbtn{overflow:hidden;}
+.toreg{margin-top:40px;}
+.reg .code{width: 100px;margin-right:10px;}
+.codebox{padding-right:164px;}

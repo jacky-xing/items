@@ -1,0 +1,11 @@
+.details{padding:0 20px;margin-top:20px;}
+.details img{width: 600px;height: 840px;}
+.details h1{font-size:34px;margin:20px 0;}
+.details p{margin-bottom:20px;}
+.details p .price{color:#DC2537;font-size:34px;font-weight:bold;}
+.details p .Oprice{text-decoration:line-through;margin-left:10px;color:#666;}
+.details .ulPS{height: 100px;border:1px solid #ddd;border-left:none;border-right:none;line-height:100px;display:flex;justify-content: space-between;padding:0 20px;}
+.details .ulPS li{font-size:24px;}
+.details .tocar .car{height: 100px;line-height:100px;color:#fff;background:#222222;width: 230px;text-align:center;margin-top:20px;}
+.details .tocar .buy{height: 100px;line-height:100px;color:#fff;background:#ED4141;width: 230px;text-align:center;margin-top:20px;float:right;}
+.details .tocar{overflow:hidden;}
