@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = "http://10.3.136.148:8080"
+const baseUrl = "http://10.3.136.147:8080"
 
 export default {
 	// socket(_wsurl){

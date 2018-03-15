@@ -100,7 +100,7 @@
 				// this.$store.state.common.dataset.splice(n,1);
 				// 获取当前商品
 				var cur = this.$store.state.common.dataset[n];
-				console.log(cur);
+				// console.log(cur);
 				http.get('delproduct',{id: cur._id}).then((res)=>{
 					
 					if(res.data.status){
@@ -157,8 +157,8 @@
 			search(){
 				let searVal = this.$refs["h-search-val"].value || '';
 
-				http.get('dimproducts',{title:searVal}).then((res)=>{
-					console.log(res);
+				http.get('dimproducts',{title:searVal,page:1,limit:this.$store.state.common.limit}).then((res)=>{
+					// console.log(res.data);
 					this.$store.commit('getData',res.data.data);
 					this.$store.commit('putProCount',res.data.count);
 					var num = Math.ceil(res.data.count/this.$store.state.common.limit);
