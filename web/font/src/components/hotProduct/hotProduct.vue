@@ -49,7 +49,7 @@
                 data:[],
                 srcimg:'../../src/img/',
                 show: false,
-                imgsrc:'http://10.3.136.148:8080/frontassproducts?hot=',
+                imgsrc:'http://10.3.136.144:8080/frontassproducts?hot=',
                 hot:'hot'
             }
         },

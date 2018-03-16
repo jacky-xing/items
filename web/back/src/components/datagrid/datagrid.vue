@@ -67,7 +67,8 @@
 	import './datagrid.scss'
 
 	import compileBox from '../compile/compile.vue'
-	import spinner from '../spinner/spinner.vue'
+	import spinner from '../spinner/spinner.vue' 
+	import router from '../../router/router.js'
 	// import pageBox from '../page/page.vue'
 
 
@@ -289,21 +290,29 @@
 			// console.log(this.$options.methods);
 			var States = this.$store.state;
 			http.get('products',{page: States.common.pageNo,limit:States.common.limit}).then((res)=>{
-				// 把商品数据赋值到common上成公共属性
-				this.$store.commit('getData',res.data.data);
-				// 把商品总数量赋值到common上成公共属性
-				this.$store.commit('putProCount',res.data.count);
+				if(res.data.status){
 
-				// 把生成商品总页数赋值到common上成公共属性
-				var num = Math.ceil(res.data.count/States.common.limit);
-				this.$store.commit('putPageAll',num);
+					// 把商品数据赋值到common上成公共属性
+					this.$store.commit('getData',res.data.data);
+					// 把商品总数量赋值到common上成公共属性
+					this.$store.commit('putProCount',res.data.count);
 
-				// 使用演示器先让页面生成dom节点
-				setTimeout(()=>{
-					this.$refs.arrPage[0].classList.add('active');
-				},10)
-				
-				this.show = false;
+					// 把生成商品总页数赋值到common上成公共属性
+					var num = Math.ceil(res.data.count/States.common.limit);
+					this.$store.commit('putPageAll',num);
+
+					// 使用演示器先让页面生成dom节点
+					setTimeout(()=>{
+						this.$refs.arrPage[0].classList.add('active');
+					},10)
+					
+					this.show = false;
+
+
+				}else{
+					router.push({name:'login'});
+				}
+
 			});
 	
 		}

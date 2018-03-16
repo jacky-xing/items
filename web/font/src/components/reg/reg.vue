@@ -31,6 +31,8 @@
     import './reg.css'
     import http from '../../utils/httpclient.js'
     import router from '../../router/router'
+
+   
     export default {
         data:function(){
             return {
@@ -107,4 +109,6 @@
             //随机验证码
         }
     }
+    
+//  $('#codec').attr('pattern',code);
 </script>  

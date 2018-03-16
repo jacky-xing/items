@@ -33,16 +33,16 @@
         methods:{
                 addproduct:function(){
                      http.get('insgenerateorder',{title: this.title, price: this.price,Oprice:this.Oprice,img:this.img}).then((res) => {
-                        if(!res.data.status){
+                        if(sessionStorage.getItem("username") == undefined) {
                             router.push('login')
-                        }
+                        }  
                     })
                 },
                 gotocar:function(){
                     http.get('insgenerateorder',{title: this.title, price: this.price,Oprice:this.Oprice,img:this.img}).then((res) => {
-                        if(!res.data.status){
+                        if(sessionStorage.getItem("username") == undefined) {
                             router.push('login')
-                        }
+                        }   
                     })
                 }
          }

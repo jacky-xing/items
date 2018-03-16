@@ -35,7 +35,7 @@
                 imgsrc:'../../src/img/',
                 show: false,
                 title:"",
-                src:'http://10.3.136.148:8080/frontdimproducts?title='
+                src:'http://10.3.136.144:8080/frontdimproducts?title='
             }
         },
         methods:{

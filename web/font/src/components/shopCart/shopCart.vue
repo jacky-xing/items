@@ -66,6 +66,9 @@
 		},
 		mounted() {
 			http.get('selgenerateorder').then((res) => {
+				if(sessionStorage.getItem("username") == undefined) {
+                            router.push('login')
+                        }  
 				if(res.data.status) {
 					this.data = res.data.data;
 					for(var i = 0; i < this.data.length; i++) {

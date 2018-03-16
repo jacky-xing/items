@@ -44,7 +44,7 @@
 				
 				if(res.data.status){
 					// 获取字典
-					http.get('http://localhost:8182/src/dictionary/common.txt').then((res)=>{
+					http.get('http://10.3.136.19:8182/src/dictionary/common.txt').then((res)=>{
 						// 把字典添加到公共属性中
 						this.$store.commit('getDictionary',res.data);
 						this.show = !this.show;

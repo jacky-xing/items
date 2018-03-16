@@ -10,7 +10,7 @@
 			    </div>
 			    <div>
 			        <label>密码：</label>
-			        <input type="password" v-model="pwd" class="password" name="password" placeholder="请输入密码">
+			        <input type="password" v-model="pwd" class="password" name="password" placeholder="请输入密码" @keyup.enter="login">
 			    </div>
 			    <div>
 			    	<input type="button" value="登录" class="login" @click="login">

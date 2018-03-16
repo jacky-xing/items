@@ -3,6 +3,8 @@
 	width: 100%;
 	font-size: 40px;
 	color: black;
+	background: url('../../img/login.gif');
+	background-size: 100% 100%;
 }
 .reg .shang {
 	width: 100%;
@@ -13,7 +15,7 @@
 	border-radius: 8px;
 }
 
-.black{
+.reg .black{ 
 	position: absolute;
 	width: 800%;
 	height: 100%;
@@ -22,7 +24,7 @@
 	background: black;
 	opacity: 0.2;
 }
-.shang h2 {
+.reg .shang h2 {
 	text-align: center;
 	margin-bottom: 20px;
 	color:#FEFEFE;
@@ -96,7 +98,7 @@
 	margin-right: 10px;
 	height: 70px;
 }
-.fr{
+.reg .fr{
 	height: 70px;
 	width: 184px;
 	text-align: center;
@@ -105,7 +107,7 @@
 	color: #FEFEFE;
 	font-size: 40px;
 }
-.codebox {
+.reg .codebox {
 	width:560px;
 }
 .reg label{
